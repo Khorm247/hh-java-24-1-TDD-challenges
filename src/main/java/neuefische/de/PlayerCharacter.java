@@ -1,8 +1,8 @@
 package neuefische.de;
 
 public class PlayerCharacter {
-    static int playerPositionX = 0;
-    static int playerPositionY = 0;
+    private static int playerPositionX = 0;
+    private static int playerPositionY = 0;
     public static int getX(){
         return playerPositionX;
     }
@@ -19,5 +19,10 @@ public class PlayerCharacter {
             playerPositionX++;
         if (input == 'a')
             playerPositionX--;
+    }
+
+    public static void resetPlayerPosition(){
+        playerPositionX = 0;
+        playerPositionY = 0;
     }
 }
