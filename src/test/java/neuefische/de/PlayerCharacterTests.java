@@ -3,7 +3,7 @@ package neuefische.de;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TestsPlayerCharacter {
+public class PlayerCharacterTests {
     @Test
     public void getX(){
         // GIVEN
